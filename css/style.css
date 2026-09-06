@@ -42,6 +42,7 @@ img{
     /*  FONT SIZE */
     --font-size-16: 16px;
     --font-size-20: 20px;
+    --font-size-28: 28px;
     --font-size-32: 32px;
 
     /* SPACING */
@@ -63,6 +64,11 @@ body{
     background-color: var(--color-white);
 }
 
+/* ===================================================
+            MOBILE LAYOUT
+======================================================= */
+
+    /* HERO SECTION */
 .hero{    
     display: flex;
     flex-direction: column;
@@ -72,6 +78,8 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    width: 100%;
+    padding-inline: 28.5px;    
 }
 .logo{
     margin-block-start: 123px;
@@ -82,15 +90,11 @@ body{
     line-height: 1.25;
     letter-spacing: -0.5px;
     color: var(--color-gray-700);
-    font-weight: var(--font-weight-600);
-    max-width: 318px;
-    width: 100%;
+    font-weight: var(--font-weight-600);    
     text-align: center;
 }
 .description{
     margin-block-start: var(--spacing-200);
-    max-width: 318px;
-    width: 100%;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.15px;
@@ -106,7 +110,6 @@ body{
 }
 .btn{
     width: 100%;
-    max-width: 318px;
     height: 56px;
     border-radius: 28px;
     font-size: var(--font-size-20); 
