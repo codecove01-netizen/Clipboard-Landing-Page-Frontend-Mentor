@@ -286,3 +286,12 @@ body{
     max-width: 6.56rem;
     height: 1.56rem;
 }
+
+/* DOWNLOAD SECTION */
+.download-section{
+    margin-block-start: 9.88rem;
+    width: 100%;
+    max-width: 19.44rem;
+    text-align: center;
+    margin-inline: auto;
+}
