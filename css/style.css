@@ -50,9 +50,11 @@ img{
     --spacing-100: 0.5rem;
     --spacing-200: 1rem;
     --spacing-300: 1.5rem;
+    --spacing-500: 2.5rem;
     --spacing-700: 3.5rem;
     --spacing-800: 4rem;
     --spacing-900: 4.5rem;
+    --spacing-1100: 5.5rem;
 }
 
 /* ===================================================
@@ -70,10 +72,19 @@ img{
 
 /* Section Description */
 .section-description{
-    font-size: var(--font-size-20);
     line-height: 1.5;
     letter-spacing: 0.009rem;
     color: var(--color-gray-500);
+    margin-block-start: var(--spacing-200);
+}
+
+/* Feature Title */
+.feature-title{
+    font-size: var(--font-size-24);
+    font-weight: var(--font-weight-600);
+    line-height: 1.25;
+    letter-spacing: -0.03rem;
+    color: var(--color-gray-700);
 }
 
 /* ===================================================
@@ -182,12 +193,7 @@ body{
     max-width: 19.5rem;
     margin-inline: auto;
 }
-.feature-title{
-    font-size: var(--font-size-24);
-    font-weight: var(--font-weight-600);
-    line-height: 1.25;
-    letter-spacing: -0.03rem;
-    color: var(--color-gray-700);
+.track-snippets-feature-title{
     margin-block-end: var(--spacing-100);
 }
 .feature-description{
@@ -216,3 +222,28 @@ body{
     height: 11.29rem;
 }
 
+/* SUPERCHARGE WORKFLOW */
+.supercharge-workflow-section{
+    margin-block-start: 9.88rem;
+    width: 100%;
+    max-width: 19.44rem;
+    margin-inline: auto;
+}
+.workflow-features{
+    margin-block-start: var(--spacing-1100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-800);
+}
+.workflows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workflow-feature-title{
+    margin-block-start: var(--spacing-500);
+    margin-block-end: var(--spacing-200);
+}
