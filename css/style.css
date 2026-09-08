@@ -113,8 +113,9 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    width: 100%;
-    padding-inline: 1.78rem;    
+    width: 100%;    
+    padding-inline: 1.78rem; 
+    margin-inline: auto;   
 }
 .logo{
     margin-block-start: 7.69rem;
@@ -142,6 +143,7 @@ body{
     align-items: center;
     gap: var(--spacing-300);
     width: 100%;
+    max-width: 318px;
 }
 .btn{
     width: 100%;
@@ -291,7 +293,10 @@ body{
 .download-section{
     margin-block-start: 9.88rem;
     width: 100%;
-    max-width: 19.44rem;
     text-align: center;
     margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
