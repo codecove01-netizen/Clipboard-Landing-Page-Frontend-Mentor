@@ -247,3 +247,42 @@ body{
     margin-block-start: var(--spacing-500);
     margin-block-end: var(--spacing-200);
 }
+
+/* COMPANIES USING CLIPBOARD */
+.companies-section{
+    margin-block-start: 9.88rem;
+    width: 100%;
+    max-width: 8.69rem;
+    margin-inline: auto;
+}
+.companies-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-700);
+    list-style-type: none;
+}
+.companies-img{
+    width: 100%;
+}
+.google-img{    
+    max-width: 8.69rem;
+    height: 2.56rem;
+}
+.ibm-img{
+    max-width: 7.56rem;
+    height: 3.75rem;
+}
+.microsoft-img{
+    max-width: 8.44rem;
+    height: 2.5rem;
+}
+.hp-img{
+    max-width: 7.06rem;
+    height: 2.94rem;
+}
+.vector-graphics-img{
+    max-width: 6.56rem;
+    height: 1.56rem;
+}
