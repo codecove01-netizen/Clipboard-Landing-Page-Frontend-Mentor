@@ -50,6 +50,7 @@ img{
     --spacing-100: 0.5rem;
     --spacing-200: 1rem;
     --spacing-300: 1.5rem;
+    --spacing-400: 2rem;
     --spacing-500: 2.5rem;
     --spacing-700: 3.5rem;
     --spacing-800: 4rem;
@@ -299,4 +300,40 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* FOOTER SECTION */
+.footer-section{
+   margin-block-start: 9.88rem;
+   width: 100%;
+   background-color: var(--color-gray-50);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: var(--spacing-400);
+   height: 31.25rem;
+}
+.footer-logo{
+    width: 3.44rem;
+    height: 3.44rem;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-300);
+}
+.link-item{
+    text-decoration: none;
+    font-size: var(--font-size-20);
+    line-height: 1.5;
+    letter-spacing: 0.009rem;
+    color: var(--color-gray-700);
+}
+.social-media-links{
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-500);
 }
