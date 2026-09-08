@@ -47,6 +47,7 @@ img{
     --font-size-32: 2rem;
 
     /* SPACING */
+    --spacing-100: 0.5rem;
     --spacing-200: 1rem;
     --spacing-300: 1.5rem;
     --spacing-700: 3.5rem;
@@ -134,9 +135,9 @@ body{
 
 /* MAIN CONTAINER */
 .main-container{
-    margin-block-start: 158px;
+    margin-block-start: 9.88rem;
     width: 100%;
-    padding-inline: 28.5px;
+    padding-inline: 1.78rem;
     text-align: center;
 }
 
@@ -145,19 +146,44 @@ body{
     font-size: var(--font-size-28);
     font-weight: var(--font-weight-600);
     line-height: 1.25;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.03rem;
     color: var(--color-gray-700);
 }
 .snippets-description{
     margin-block-start: var(--spacing-200);
     color: var(--color-gray-500);
     line-height: 1.5;
-    letter-spacing: 0.15px;
+    letter-spacing: 0.009rem;
 }
 .computer-image-container{
     margin-block: var(--spacing-900);    
 }
 .computer-img{
-    height: 238px;
+    height: 14.88rem;
     margin-inline: auto;
+}
+
+/* FEATURES SECTION */
+.features-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-700);
+    width: 100%;
+    max-width: 19.5rem;
+}
+.feature-title{
+    font-size: var(--font-size-24);
+    font-weight: var(--font-weight-600);
+    line-height: 1.25;
+    letter-spacing: -0.03rem;
+    color: var(--color-gray-700);
+    margin-block-end: var(--spacing-100);
+}
+.feature-description{
+    color: var(--color-gray-500);
+    line-height: 1.5;
+    letter-spacing: 0.009rem;
+    text-align: center;
 }
