@@ -132,3 +132,32 @@ body{
     background-color: var(--color-blue-500);
 }
 
+/* MAIN CONTAINER */
+.main-container{
+    margin-block-start: 158px;
+    width: 100%;
+    padding-inline: 28.5px;
+    text-align: center;
+}
+
+/* TRACK SNIPPETS */
+.snippets-title{
+    font-size: var(--font-size-28);
+    font-weight: var(--font-weight-600);
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    color: var(--color-gray-700);
+}
+.snippets-description{
+    margin-block-start: var(--spacing-200);
+    color: var(--color-gray-500);
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
+.computer-image-container{
+    margin-block: var(--spacing-900);    
+}
+.computer-img{
+    height: 238px;
+    margin-inline: auto;
+}
