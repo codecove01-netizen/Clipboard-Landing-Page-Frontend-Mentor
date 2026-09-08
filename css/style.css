@@ -172,6 +172,7 @@ body{
     gap: var(--spacing-700);
     width: 100%;
     max-width: 19.5rem;
+    margin-inline: auto;
 }
 .feature-title{
     font-size: var(--font-size-24);
@@ -186,4 +187,36 @@ body{
     line-height: 1.5;
     letter-spacing: 0.009rem;
     text-align: center;
+}
+
+/* ACCESS SECTION */
+.access-section{
+    margin-block-start: 9.88rem;
+    width: 100%;
+    max-width: 19.44rem;
+    margin-inline: auto;
+}
+.access-title{
+    font-size: var(--font-size-28);
+    font-weight: var(--font-weight-600);
+    line-height: 1.25;
+    letter-spacing: -0.03rem;
+    color: var(--color-gray-700);
+}
+.access-title span{
+    text-transform: capitalize;
+}
+.access-description{
+    margin-block-start: var(--spacing-200);
+    color: var(--color-gray-500);
+    line-height: 1.5;
+    letter-spacing: 0.009rem;
+}
+.devices-image-container{
+    margin-block-start: var(--spacing-900);
+}
+.devices-img{
+    width: 100%;
+    max-width: 19.38rem;
+    height: 11.29rem;
 }
