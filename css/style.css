@@ -45,6 +45,7 @@ img{
     --font-size-24: 1.5rem;
     --font-size-28: 1.75rem;
     --font-size-32: 2rem;
+    --font-size-36: 2.25rem;
 
     /* SPACING */
     --spacing-100: 0.5rem;
@@ -57,6 +58,7 @@ img{
     --spacing-800: 4rem;
     --spacing-900: 4.5rem;
     --spacing-1100: 5.5rem;
+    --spacing-1200: 6rem;
 }
 
 /* ===================================================
@@ -317,25 +319,54 @@ body{
             TABLET LAYOUT
 ======================================================= */
 @media screen and (min-width: 48rem) {
+    /* ===============================================
+            TYPOGRAPHY
+======================================================= */
+
+    /* Section Headings */
+    .section-title{
+        font-size: var(--font-size-36);
+        letter-spacing: -0.04rem;
+    }
+
+    /* Section Description */
+    .section-description{
+        font-size: var(--font-size-20);
+    }
+
+
         /* HERO SECTION */
-.hero{    
-    padding-inline: 4.75rem;        
-}
-.logo{
-    margin-block-start: 8.19rem;
-}
-.heading{
-    margin-block-start: var(--spacing-700);
-    font-size: 2.5rem;
-    letter-spacing: -0.05rem;
-}
-.description{
-    font-size: var(--font-size-20);
-}
-.button-container{
-    margin-block-start: var(--spacing-600);
-    gap: var(--spacing-200);
-    max-width: 470px;
-    flex-direction: row;
-} 
+    .hero{    
+        padding-inline: 4.75rem;        
+    }
+    .logo{
+        margin-block-start: 8.19rem;
+    }
+    .heading{
+        margin-block-start: var(--spacing-700);
+        font-size: 2.5rem;
+        letter-spacing: -0.05rem;
+    }
+    .description{
+        font-size: var(--font-size-20);
+    }
+    .button-container{
+        margin-block-start: var(--spacing-600);
+        gap: var(--spacing-200);
+        max-width: 470px;
+        flex-direction: row;
+    } 
+
+    /* MAIN CONTAINER */
+    .main-container{
+        padding-inline: 4.75rem;
+    } 
+
+    /* TRACK SNIPPETS */
+    .computer-image-container{
+        margin-block: var(--spacing-1200);    
+    }
+    .computer-img{
+        height: 28.90rem;
+    } 
 }
