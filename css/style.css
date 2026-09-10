@@ -119,7 +119,7 @@ img{
 /* ----------- Flex Layout ------------ */
 
 /* Flex Column */
-.hero,.button-container,.features-section,
+.hero,.button-container,.track-snippets-section,.features-section,
 .workflow-features,.workflows,.companies-list,
 .download-section,.footer-section,.footer-links{    
     display: flex;
@@ -172,7 +172,7 @@ body{
 .button-container{
     margin-block-start: var(--spacing-700);
     gap: var(--spacing-300);
-    max-width: 318px;
+    max-width: 19.88rem;
     width: 100%; 
 }
 .btn{
@@ -203,8 +203,8 @@ body{
 }
 
 /* TRACK SNIPPETS */
-.computer-image-container{
-    margin-block: var(--spacing-900);    
+.track-snippets-section{
+    gap: var(--spacing-900); 
 }
 .computer-img{
     height: 14.88rem;
@@ -320,9 +320,9 @@ body{
             TABLET LAYOUT
 ======================================================= */
 @media screen and (min-width: 48rem) {
-    /* ===============================================
+    /* =====================================
             TYPOGRAPHY
-======================================================= */
+    =========================================s */
 
     /* Section Headings */
     .section-title{
@@ -354,7 +354,7 @@ body{
     .button-container{
         margin-block-start: var(--spacing-600);
         gap: var(--spacing-200);
-        max-width: 470px;
+        max-width: 29.38rem;
         flex-direction: row;
     } 
 
@@ -364,8 +364,8 @@ body{
     } 
 
     /* TRACK SNIPPETS */
-    .computer-image-container{
-        margin-block: var(--spacing-1200);    
+    .track-snippets-section{
+        gap: var(--spacing-1200);
     }
     .computer-img{
         height: 28.90rem;
@@ -435,5 +435,7 @@ body{
     .vector-graphics-img{
         max-width: 7.2rem;
         height: 1.73rem;
-    }   
+    }       
 }
+
+
