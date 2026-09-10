@@ -57,6 +57,7 @@ img{
     --spacing-700: 3.5rem;
     --spacing-800: 4rem;
     --spacing-900: 4.5rem;
+    --spacing-1000: 5rem;
     --spacing-1100: 5.5rem;
     --spacing-1200: 6rem;
 }
@@ -369,4 +370,26 @@ body{
     .computer-img{
         height: 28.90rem;
     } 
+    
+    /* FEATURES SECTION */
+    .features-section{
+        gap: var(--spacing-800);
+        max-width: 21.88rem;
+    }
+    .track-snippets-feature-title{
+        margin-block-end: var(--spacing-100);
+    }
+
+    /* ACCESS SECTION */
+    .access-section{
+        max-width: 38.5rem;
+    }
+    .devices-image-container{
+        margin-block-start: var(--spacing-1000);
+    }
+    .devices-img{
+        max-width: 37.91rem;
+        height: 22.06rem;
+    }
+  
 }
