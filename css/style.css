@@ -391,5 +391,49 @@ body{
         max-width: 37.91rem;
         height: 22.06rem;
     }
-  
+
+    /* SUPERCHARGE WORKFLOW */
+    .supercharge-workflow-section{
+        max-width: 38.5rem;
+    }
+    .workflow-features{
+        margin-block-start: var(--spacing-900);
+        gap: var(--spacing-600);
+    }
+    .workflows{
+        max-width: 25rem;
+        width: 100%;
+    }
+
+    /* COMPANIES USING CLIPBOARD */
+    .companies-section{
+        max-width: 37.01rem;
+    }
+    .companies-list{
+        column-gap: var(--spacing-1000);
+        row-gap: var(--spacing-700);
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .google-img{    
+        max-width: 9.5rem;
+        height: 2.82rem;
+    }
+    .ibm-img{
+        max-width: 8.29rem;
+        height: 4.15rem;
+    }
+    .microsoft-img{
+        max-width: 9.21rem;
+        height: 2.76rem;
+    }
+    .hp-img{
+        max-width: 7.72rem;
+        height: 3.22rem;
+    }
+    .vector-graphics-img{
+        max-width: 7.2rem;
+        height: 1.73rem;
+    }   
 }
