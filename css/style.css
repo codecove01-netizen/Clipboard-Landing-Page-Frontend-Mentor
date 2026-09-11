@@ -462,5 +462,40 @@ body{
     .main-container{
         padding-inline: 0rem;
     }  
+
+    /* TRACK SNIPPETS */
+    .track-snippets-section{
+        width: 100%;
+        align-items: flex-start;
+    }
+    .track-snippets-content{
+        max-width: 45.63rem;
+        width: 100%;
+        margin-inline: auto;
+    }
+    .image-features-section{
+        margin-block-start: var(--spacing-800);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: var(--spacing-900);
+    }
+    .computer-image-container{
+        margin-block: 0;    
+    }
+    .computer-img{
+        height: 37.5rem;
+        max-width: 47.19rem;
+        transform: translateX(-10%);
+    } 
+    
+    /* FEATURES SECTION */
+    .features-section{
+        max-width: 21.88rem;
+        text-align: left;
+    }
+    .feature-description{
+        text-align: left;
+    }
     
 }
