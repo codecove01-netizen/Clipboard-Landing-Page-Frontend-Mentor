@@ -405,10 +405,12 @@ body{
     }
     .workflow-features{
         margin-block-start: var(--spacing-900);
-        gap: var(--spacing-600);
+        flex-direction: row;
+        align-items: flex-start;
+        column-gap: var(--spacing-400);
     }
     .workflows{
-        max-width: 25rem;
+        max-width: 21.88rem;
         width: 100%;
     }
 
@@ -497,5 +499,36 @@ body{
     .feature-description{
         text-align: left;
     }
-    
+
+    /* ACCESS SECTION */
+    .access-section{
+        max-width: 50.60rem;
+    }
+    .access-content-section{
+        max-width: 45.63rem;
+    }
+    .devices-image-container{
+        margin-block-start: var(--spacing-1200);
+    }
+    .devices-img{
+        max-width: 50.60rem;
+        height: 29.45rem;
+    }
+
+    /* SUPERCHARGE WORKFLOW */
+    .supercharge-workflow-section{
+        max-width: 69.63rem;
+    }
+    .workflow-features{
+        margin-block-start: var(--spacing-900);
+        gap: var(--spacing-600);
+    }
+    .workflows{
+        max-width: 25rem;
+        width: 100%;
+    }
+    .workflow-description
+    {
+        text-align: center;
+    }    
 }
