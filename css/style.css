@@ -531,4 +531,37 @@ body{
     {
         text-align: center;
     }    
+
+    /* COMPANIES USING CLIPBOARD */
+    .companies-section{
+        max-width: 69.51rem;
+    }
+    .companies-list{
+        column-gap: var(--spacing-1200);
+    }
+    .google-img{    
+        max-width: 10.31rem;
+        height: 3.06rem;
+    }
+    .ibm-img{
+        max-width: 9rem;
+        height: 4.5rem;
+    }
+    .microsoft-img{
+        max-width: 10rem;
+        height: 3rem;
+    }
+    .hp-img{
+        max-width: 8.38rem;
+        height: 3.5rem;
+    }
+    .vector-graphics-img{
+        max-width: 7.81rem;
+        height: 1.88rem;
+    }   
+
+    /* DOWNLOAD SECTION */ 
+    .download-section{
+        max-width: 45.63rem;
+    }
 }
