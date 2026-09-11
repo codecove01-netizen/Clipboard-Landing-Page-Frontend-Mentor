@@ -119,7 +119,8 @@ img{
 /* ----------- Flex Layout ------------ */
 
 /* Flex Column */
-.hero,.button-container,.track-snippets-section,.features-section,
+.hero,.button-container,.track-snippets-section,
+.image-features-section,.features-section,
 .workflow-features,.workflows,.companies-list,
 .download-section,.footer-section,.footer-links{    
     display: flex;
@@ -204,6 +205,9 @@ body{
 
 /* TRACK SNIPPETS */
 .track-snippets-section{
+    gap: var(--spacing-900); 
+}
+.image-features-section{
     gap: var(--spacing-900); 
 }
 .computer-img{
@@ -367,6 +371,9 @@ body{
     .track-snippets-section{
         gap: var(--spacing-1200);
     }
+    .image-features-section{
+        gap: var(--spacing-1200);
+    }
     .computer-img{
         height: 28.90rem;
     } 
@@ -439,3 +446,21 @@ body{
 }
 
 
+/* ===================================================
+            DESKTOP LAYOUT
+======================================================= */
+@media screen and (min-width: 90rem) {
+    /* HERO SECTION */
+    .hero{    
+        padding-inline: 22.19rem;        
+    }
+    .heading{
+        font-size: 2.89rem;
+    }
+
+    /* MAIN CONTAINER */
+    .main-container{
+        padding-inline: 0rem;
+    }  
+    
+}
