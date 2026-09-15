@@ -159,16 +159,27 @@ margin-block-start: var(--spacing-900);
 - Improved my understanding of organizing CSS into **shared styles, typography, mobile, tablet, and desktop sections** to make the stylesheet easier to maintain.
 ---
 
+## 🧠 Challenges & Lessons Learned
+
+One of the main challenges was reproducing the responsive layout across mobile, tablet, and desktop while keeping the spacing and proportions close to the design.
+
+Positioning the computer image on larger screens was another challenge. I used `overflow: hidden` on its container together with `transform` to achieve the partially cropped effect shown in the design.
+
+I also spent time refining the responsive breakpoints and deciding when Flexbox or CSS Grid was the better choice for different sections. This helped me better understand how the two layout systems can work together.
+
+This project taught me the importance of planning responsive behavior early, creating reusable CSS rules, and testing the layout at different viewport sizes throughout development.
+
+---
+
 ## 🔭 Continued Development
 
 For future projects, I would like to continue improving my understanding of:
 
-- Advanced responsive layouts and breakpoint strategy.
-- CSS Grid and Flexbox combinations.
-- Accessibility and keyboard navigation.
-- Writing more scalable and maintainable CSS.
-- Building more complex projects using JavaScript.
-- Improving development time estimation and workflow efficiency.
+- Continue improving responsive layouts and breakpoint decisions.
+- Further strengthen accessibility and keyboard navigation.
+- Improve CSS organization and maintainability as projects become more complex.
+- Build more challenging projects involving JavaScript and interactive functionality.
+- Improve development time estimation through experience.
 
 ---
 
