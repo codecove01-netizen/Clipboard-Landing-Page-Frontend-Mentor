@@ -504,7 +504,7 @@ body{
 @media screen and (min-width: 75rem) {
     /* HERO SECTION */
     .hero{    
-        padding-inline: 22.19rem;    
+        padding-inline: 0;    
     }
     .heading{
         font-size: 2.89rem;
